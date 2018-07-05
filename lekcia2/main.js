@@ -14,7 +14,8 @@ console.log("B");
 console.log("C");
 
 console.log("A");
-let interval_id = setInterval(printB, 10); /* kazdych 10 sekund sa pokusy vykonat print db*/
+let interval_id = setInterval(printB, 10); /* every 10 miliseconds
+tries to execute printb */
 console.log("C");
 
 for (let i = 0; i < 100000; i++)
